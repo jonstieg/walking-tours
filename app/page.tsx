@@ -4,64 +4,70 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
-        <Image
-          src="/profile.png"
-          alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
-          unoptimized
-          width={160}
-          height={160}
-          priority
-        />
-      </a>
+      {/* <a href={socialLinks.twitter} target="_blank"> */}
+      <Image
+        src="/profile.png"
+        alt="Profile photo"
+        className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5"
+        unoptimized
+        width={160}
+        height={160}
+        priority
+      />
+      {/* </a> */}
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Get to know the history of New York
       </h1>
 
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-neutral dark:prose-invert mb-10">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+          I provide well-researched, engaging, site-specific history tours of New York City. I am also a licensed New York City tour guide.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          Both of my tours are listed below and can be booked by clicking the photos. If cost is an issue, I would be happy to give you a tour for free. Email me at <a href={socialLinks.email}>jon@nycwalkingtours.org</a> to set up a time.
         </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+      </div>
+
+      <div className="pb-10">
+        <h2 className="pb-2">Subway Tour</h2>
+        <a href="https://www.viator.com/tours/New-York-City/Private-New-York-City-Subway-Tour-With-A-Local/d687-345485P2" target="_blank">
+          <Image
+            src="/photos/subway.png"
+            alt="The A train"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5"
+            unoptimized
+            width={160}
+            height={160}
+            priority
+          />
+        </a>
+        <div className="prose prose-neutral dark:prose-invert">
+          <p>
+            A private, custom tour of the New York City subway system. Each tour is unique. I will build it around your needs and walk you through every step of the way. We will see history, architecture, abandoned stations, and beautiful artwork.
+          </p>
+        </div>
+      </div>
+
+
+      <div className="pt-5">
+        <h2 className="pb-2">Brooklyn Bridge Tour</h2>
+        <a href="https://www.viator.com/tours/Brooklyn/Life-and-death-on-the-Brooklyn-Bridge-with-a-local/d22371-345485P1" target="_blank">
+          <Image
+            src="/photos/bridge.png"
+            alt="Brooklyn Bridge"
+            className="rounded-full bg-gray-100 block mr-5 lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-left sm:mr-5 sm:mb-5"
+            unoptimized
+            width={160}
+            height={160}
+            priority
+          />
+        </a>
+        <div className="prose prose-neutral dark:prose-invert">
+          <p>
+            Most people are going to the Bridge to grab a selfie and go on with their day. They don't understand the engineering marvel and heartbreaking history behind it all. We will learn this fascinating past (and then take a selfie on the Bridge).
+          </p>
+        </div>
       </div>
     </section>
   );
