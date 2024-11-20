@@ -35,7 +35,7 @@ export default function Page() {
           <Image
             src="/photos/subway.png"
             alt="The A train"
-            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5 hover:opacity-70"
             unoptimized
             width={160}
             height={160}
@@ -56,7 +56,7 @@ export default function Page() {
           <Image
             src="/photos/bridge.png"
             alt="Brooklyn Bridge"
-            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5 hover:opacity-60"
             unoptimized
             width={160}
             height={160}
@@ -65,7 +65,7 @@ export default function Page() {
         </a>
         <div className="prose prose-neutral dark:prose-invert">
           <p>
-            Most people are going to the Bridge to grab a selfie and go on with their day. They don't understand the engineering marvel and heartbreaking history behind it all. We will learn this fascinating past (and then take a selfie on the Bridge).
+            Most people are going to the Bridge to grab a selfie and get on with their day. They don't understand the engineering marvel and heartbreaking history behind it all. We will learn this fascinating past (and <i>then</i> take a selfie on the Bridge).
           </p>
         </div>
       </div>
