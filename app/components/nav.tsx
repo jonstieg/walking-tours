@@ -1,21 +1,12 @@
 import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
-import { metaData, socialLinks } from "../config";
-import { TbMailFilled } from "react-icons/tb";
+import { metaData } from "../config";
 
 const navItems = {
-  // "/blog": { name: "Blog" },
-  // "/projects": { name: "Projects" },
-  // "/photos": { name: "Photos" },
+  "/blog": { name: "Blog" },
+  "/projects": { name: "Projects" },
+  "/photos": { name: "Photos" },
 };
-
-function SocialLink({ href, icon: Icon }) {
-  return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
-      <Icon />
-    </a>
-  );
-}
 
 export function Navbar() {
   return (
@@ -27,7 +18,7 @@ export function Navbar() {
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
-          {/* {Object.entries(navItems).map(([path, { name }]) => (
+          {Object.entries(navItems).map(([path, { name }]) => (
             <Link
               key={path}
               href={path}
@@ -35,10 +26,8 @@ export function Navbar() {
             >
               {name}
             </Link>
-          ))} */}
-          <SocialLink href={socialLinks.email} icon={TbMailFilled} />
+          ))}
           <ThemeSwitch />
-
         </div>
       </div>
     </nav>
