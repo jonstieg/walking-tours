@@ -56,7 +56,7 @@ export default function Page() {
           <Image
             src="/photos/bridge.png"
             alt="Brooklyn Bridge"
-            className="rounded-full bg-gray-100 block mr-5 lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-left sm:mr-5 sm:mb-5"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5"
             unoptimized
             width={160}
             height={160}
