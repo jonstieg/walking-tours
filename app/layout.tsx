@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: metaData.description,
   openGraph: {
-    images: metaData.ogImage,
+    // images: metaData.ogImage,
     title: metaData.title,
     description: metaData.description,
     url: metaData.baseUrl,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
 };
 
