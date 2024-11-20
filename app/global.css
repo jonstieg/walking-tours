@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,6 +20,8 @@
   --sh-jsxliterals: #6266d1;
   --sh-property: #e25a1c;
   --sh-entity: #e25a1c;
+  --font-inter-sans: 'Inter', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace; /* Update this if you want to change the monospace font as well */
 }
 
 /* Dark theme colors */
@@ -36,6 +40,10 @@
 
 html {
   min-width: 360px;
+}
+
+body {
+  font-family: var(--font-inter-sans);
 }
 
 .prose {
