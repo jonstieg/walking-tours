@@ -29,6 +29,26 @@ export default function Page() {
         </p>
       </div>
 
+       <div className="pt-5">
+        <h2 className="pb-2">Brooklyn Bridge Tour</h2>
+        <a href="https://www.viator.com/tours/Brooklyn/Life-and-death-on-the-Brooklyn-Bridge-with-a-local/d22371-345485P1" target="_blank">
+          <Image
+            src="/photos/bridge.png"
+            alt="Brooklyn Bridge"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5 hover:opacity-60"
+            unoptimized
+            width={160}
+            height={160}
+            priority
+          />
+        </a>
+        <div className="prose prose-neutral dark:prose-invert">
+          <p>
+            Most people are going to the Bridge to grab a selfie and get on with their day. They don't understand the engineering marvel and heartbreaking history behind it all. We will learn this fascinating past (and <i>then</i> take a selfie on the Bridge).
+          </p>
+        </div>
+      </div>
+      
       <div className="pb-10">
         <h2 className="pb-2">Subway Tour</h2>
         <a href="https://www.viator.com/tours/New-York-City/Private-New-York-City-Subway-Tour-With-A-Local/d687-345485P2" target="_blank">
@@ -49,14 +69,13 @@ export default function Page() {
         </div>
       </div>
 
-
-      <div className="pt-5">
-        <h2 className="pb-2">Brooklyn Bridge Tour</h2>
-        <a href="https://www.viator.com/tours/Brooklyn/Life-and-death-on-the-Brooklyn-Bridge-with-a-local/d22371-345485P1" target="_blank">
+      <div className="pb-10">
+        <h2 className="pb-2">How to use the Subway</h2>
+        <a href="https://www.viator.com/tours/Jersey-City/Learn-to-ride-the-Subway-with-a-New-York-Local/d24760-345485P3" target="_blank">
           <Image
-            src="/photos/bridge.png"
-            alt="Brooklyn Bridge"
-            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5 hover:opacity-60"
+            src="/photos/times.png"
+            alt="The A train"
+            className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-100 mx-auto sm:float-left sm:mr-5 sm:mb-5 hover:opacity-70"
             unoptimized
             width={160}
             height={160}
@@ -65,10 +84,11 @@ export default function Page() {
         </a>
         <div className="prose prose-neutral dark:prose-invert">
           <p>
-            Most people are going to the Bridge to grab a selfie and get on with their day. They don't understand the engineering marvel and heartbreaking history behind it all. We will learn this fascinating past (and <i>then</i> take a selfie on the Bridge).
+            The New York City Subway is one of the most complex transit systems in the world but with a little help, you can ride it like a pro. This is a practical guide to using the subway.
           </p>
         </div>
       </div>
+     
     </section>
   );
 }
