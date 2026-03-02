@@ -29,7 +29,7 @@ export default function Page() {
         </p>
       </div>
 
-       <div className="pt-5">
+      <div className="pb-10">
         <h2 className="pb-2">Brooklyn Bridge Tour</h2>
         <a href="https://www.viator.com/tours/Brooklyn/Life-and-death-on-the-Brooklyn-Bridge-with-a-local/d22371-345485P1" target="_blank">
           <Image
@@ -48,8 +48,8 @@ export default function Page() {
           </p>
         </div>
       </div>
-      
-      <div className="pb-10">
+
+      <div className="pb-10 pt-5">
         <h2 className="pb-2">Subway Tour</h2>
         <a href="https://www.viator.com/tours/New-York-City/Private-New-York-City-Subway-Tour-With-A-Local/d687-345485P2" target="_blank">
           <Image
@@ -69,7 +69,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="pb-10">
+      <div className="pb-10 pt-5">
         <h2 className="pb-2">How to use the Subway</h2>
         <a href="https://www.viator.com/tours/Jersey-City/Learn-to-ride-the-Subway-with-a-New-York-Local/d24760-345485P3" target="_blank">
           <Image
@@ -88,7 +88,7 @@ export default function Page() {
           </p>
         </div>
       </div>
-     
+
     </section>
   );
 }
