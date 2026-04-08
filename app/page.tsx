@@ -25,7 +25,7 @@ export default function Page() {
           I provide well-researched, engaging, site-specific history tours of New York City. I am also a licensed New York City tour guide.
         </p>
         <p>
-          Both of my tours are listed below and can be booked by clicking the photos. If cost is an issue, I would be happy to give you a tour for free. Email me at <a href={socialLinks.email}>jon@nycwalkingtours.org</a> to set up a time.
+          All of my tours are listed below and can be booked by clicking the photos. If cost is an issue, I would be happy to give you a tour for free. Email me at <a href={socialLinks.email}>jon@nycwalkingtours.org</a> to set up a time.
         </p>
       </div>
 
